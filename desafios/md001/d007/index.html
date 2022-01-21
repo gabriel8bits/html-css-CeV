@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desafio 007</title>
+</head>
+<body>
+    <h1>Imagem Flexivel</h1>
+    <p>Experimente ver a imagem de diferentes tamanhos. Conseguiu ver ela grande, media e pequena? </p>
+    <picture>
+        <source media="(max-width:530px )" srcset="img/paisagem-300.jpg" type="image/jpg">
+        <source media="(max-width:1030px )" srcset="img/paisagem-500.jpg" type="image/jpg">
+        <img src="img/paisagem-1000.jpg" alt="Paisagem flexivel">
+    </picture>
+</body>
+</html>
